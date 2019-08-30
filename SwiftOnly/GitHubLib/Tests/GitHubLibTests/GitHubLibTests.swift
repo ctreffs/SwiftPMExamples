@@ -42,6 +42,6 @@ final class GitHubLibTests: XCTestCase {
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testExample)
     ]
 }

@@ -19,6 +19,6 @@ let package = Package(
             dependencies: ["CppHello"]),
         .testTarget(
             name: "CLinkageTests",
-            dependencies: ["CLinkage"]),
+            dependencies: ["CLinkage"])
     ]
 )

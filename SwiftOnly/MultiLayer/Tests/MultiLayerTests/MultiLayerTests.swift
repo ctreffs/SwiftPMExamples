@@ -42,6 +42,6 @@ final class MultiLayerTests: XCTestCase {
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testExample)
     ]
 }

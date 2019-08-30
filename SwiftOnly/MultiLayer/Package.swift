@@ -18,6 +18,6 @@ let package = Package(
             dependencies: ["FooBar"]),
         .testTarget(
             name: "MultiLayerTests",
-            dependencies: ["MultiLayer"]),
+            dependencies: ["MultiLayer"])
     ]
 )

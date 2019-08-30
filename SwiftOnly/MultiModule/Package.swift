@@ -23,6 +23,6 @@ let package = Package(
             dependencies: ["Foo", "Bar"]),
         .testTarget(
             name: "MultiModuleTests",
-            dependencies: ["MultiModule"]),
+            dependencies: ["MultiModule"])
     ]
 )

@@ -16,7 +16,7 @@ let package = Package(
             name: "CHello",
             cSettings: [
                 // -Xcc -ISources/libhello/include
-                .unsafeFlags(["-I", "Sources/libhello/include"]),
+                .unsafeFlags(["-I", "Sources/libhello/include"])
             ],
             linkerSettings: [
                 // -Xlinker -LSources/libhello/lib
@@ -29,6 +29,6 @@ let package = Package(
             dependencies: ["CHello"]),
         .testTarget(
             name: "StaticlibTests",
-            dependencies: ["Staticlib"]),
+            dependencies: ["Staticlib"])
     ]
 )

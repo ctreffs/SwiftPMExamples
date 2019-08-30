@@ -19,6 +19,6 @@ let package = Package(
             dependencies: ["ObjcHello"]),
         .testTarget(
             name: "SimpleTests",
-            dependencies: ["Simple"]),
+            dependencies: ["Simple"])
     ]
 )
